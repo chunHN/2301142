@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>홈</title>
+
+    <style>
+        .orange-box {
+            width: 1525px;
+            height: 200px;
+            background-color: orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .text{
+            font-size: 60px;
+        }
+
+        table {
+            width: 1525px;
+            background-color: lightgray;
+            padding: 20px;
+            border-collapse: collapse;
+            border-spacing: 0;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid gray;
+        }
+
+        .post-header {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .post-content {
+            font-size: 18px;
+            line-height: 1.5;
+            text-align: center;
+        }
+
+        .post-image {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .login-form input {
+            margin-right: 5px;
+        }
+        .signup-form {
+            position: absolute;
+            top: 20px;
+            right: 200px;
+            display: flex;
+        }
+
+        .signup-form input {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="orange-box">
+        <p class="text">이냥저냥</p>
+    </div>
+
+    <div class="login-form">
+        <input type="text" placeholder="아이디">
+        <input type="password" placeholder="비밀번호">
+        <button type="submit">로그인</button>
+        <a href="signup.html" target="_blank"><button>회원가입</button></a>
+    </div>
+
+    <table>
+        <tr>
+            <th style="border-bottom: 2px solid gray;">게시물 제목</th>
+            <th>게시물 내용</th>
+            <th style="border-bottom: 2px solid gray;">이미지</th>
+        </tr>
+        <tr>
+            <td class="post-header">반죽 냥이</td>
+            <td class="post-content">너무 귀여워서 저질러 버렸습니다...</td>
+            <td><img class="post-image" src="img/고영희.jpg" alt="반죽냥이"></td>
+        </tr>
+        <tr>
+            <td class="post-header">하악냥이</td>
+            <td class="post-content">마 니 갑자기 와그라누..ㅠ</td>
+            <td><img class="post-image" src="img/하악냥이.jpg" alt="하악냥이"></td>
+        </tr>
+        <tr>
+            <td class="post-header">중성화</td>
+            <td class="post-content">고양이 중성화 수술을 해야할까요??</td>
+            <td><img class="post-image" src="img\중성화.jpg" alt="중성화"></td>
+        </tr>
+    </table>
+    <a href="zunang.html"><button>중성화</button></a>
+</body>
+</html>
